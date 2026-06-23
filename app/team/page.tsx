@@ -79,14 +79,7 @@ const page = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-12 xl:px-36 mx-auto">
-          <AdvisorCard
-            name="Dominick Atanasio"
-            role="Professor"
-            department="Computer Science"
-            imageSrc="/static/advisors/AtanasioDominick.jpg"
-            email="datanasio"
-            linkedinUrl="https://www.mtsac.edu/profiles/datanasio.html"
-          />
+          
           <AdvisorCard
             name="Jonathan Johannsen"
             role="Professor"
