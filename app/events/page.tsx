@@ -40,6 +40,32 @@ type Event = {
 };
 
 const upcomingEvents: Event[] = [
+  
+];
+
+const spring2026Events = [
+  {
+    id: "23",
+    imageSrc: "/static/events/CyberSecurity.png",
+    title: "Cybersecurity Workshop",
+    description:
+      "Join us for our Cybersecurity Workshop this Friday (1-3PM) where you'll learn the basics of ethical hacking and web security. ",
+    date: "10 April",
+    time: "1:00 pm - 3:00 pm",
+    location: "Building 61, Room 3319",
+    rsvpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSchALRI6Z1bLKzAj7J60z5p2TohDDx5hCWe9uIT3UNPQbnxsQ/viewform",
+  },
+  {
+    id: "22",
+    imageSrc: "/static/events/BroncoHack.png",
+    title: "Bronco Hack",
+    description:
+      "This is a 24-hour, in-person hackathon affiliated with Major League Hacking (MLH), and participation is completely free.",
+    date: "25-26 April",
+    time: "9:00 am - 9:00 pm",
+    location: "Cal Poly Pomona Business Building",
+    rsvpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSfe3-d55yC-o6H6Ma7FuhiCrji25ieoRgCQ1bivC68rVmTb2Q/viewform",
+  },
   {
     id: "21",
     imageSrc: "/static/events/StemSlam.png",
@@ -50,10 +76,7 @@ const upcomingEvents: Event[] = [
     time: "1:30 PM - 3:30 PM",
     location: "Building 410, 2nd floor",
     rsvpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSeBrAws4rJIp4gfcfk3c1n1jEYQ_0ZJXbLrXw32inDzhdK-cw/viewform",
-  }
-];
-
-const spring2026Events = [
+  },
   {
     id: "20",
     imageSrc: "/static/events/TechSym.png",
