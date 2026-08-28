@@ -62,11 +62,11 @@ const page = () => {
         </div>
       </div>
       <section
-        className="w-full p-6 md:p-12 flex flex-col"
+        className="w-full p-6 md:p-12 flex flex-col  bg-[#edd7b4]"
         aria-labelledby="advisors-heading"
         role="region"
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 ">
           <h2
             id="advisors-heading"
             className="text-start font-garamond font-thin text-3xl md:text-5xl"
@@ -100,7 +100,7 @@ const page = () => {
       </section>
 
       <section
-        className="w-full p-6 md:p-12 flex flex-col bg-[#edd7b4]"
+        className="w-full p-6 md:p-12 flex flex-col"
         aria-labelledby="officers-heading"
       >
         <div className="flex flex-col gap-4">
@@ -111,9 +111,85 @@ const page = () => {
             Our Officers
           </h2>
           <p className="text-start text-gray-900 mb-10 max-w-2xl">
-            Say hi to the folks running the show! From events to projects, they
-            keep things moving—and they’re just a message away on Discord or
-            LinkedIn.
+            This year's officers: fully deployed, three nines. Ping them on Discord or LinkedIn anytime. 
+          </p>
+        </div>
+        <div className="flex flex-col gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-12 xl:px-36 mx-auto">
+            <OfficerCard
+              name="Adriel Devon"
+              role="President"
+              imageSrc="/static/people/adriels.png"
+              discordUsername="adrieldvn"
+              linkedinUrl="https://www.linkedin.com/in/adriel-soebagio-80b7b0228/"
+            />
+            <OfficerCard
+              name="Shawn Chiu"
+              role="Vice President"
+              imageSrc="/static/people/shawn.png"
+              discordUsername="krixeve"
+              linkedinUrl="https://www.linkedin.com/in/hao-en-berkeley/"
+            />
+            <OfficerCard
+              name="Zain Nasir"
+              role="Secretary"
+              imageSrc="/static/people/zain.png"
+              discordUsername="zaintheman0276_44522"
+              linkedinUrl=""
+            />
+            <OfficerCard
+              name="Remington Ly"
+              role="Treasurer"
+              imageSrc="/static/people/remy.png"
+              discordUsername="ramen0817"
+              linkedinUrl="https://www.linkedin.com/in/remington-ly-90ab22353/"
+            />
+            <OfficerCard
+              name="Casper Xu"
+              role="Outreach"
+              imageSrc="/static/people/casper.png"
+              discordUsername="mbfcasper"
+              linkedinUrl="https://www.linkedin.com/in/yitong-xu-63b006427/"
+            />
+            <OfficerCard
+              name="Oswaldo Arteta"
+              role="ICC Representative"
+              imageSrc="/static/people/oswaldo.png"
+              discordUsername="oswadlo"
+              linkedinUrl="https://www.linkedin.com/in/oswaldo-arteta-rodriguez-650864389/"
+            />
+            <OfficerCard
+              name="Ethan Luu"
+              role="Workshop Officer"
+              imageSrc="/static/people/ethan.png"
+              discordUsername="8439"
+              linkedinUrl="https://www.linkedin.com/in/ethantheluu/"
+            />
+            <OfficerCard
+              name="Kiet Duong"
+              role="Workshop Officer"
+              imageSrc="/static/people/kiet.png"
+              discordUsername="hksk5609"
+              linkedinUrl="https://www.linkedin.com/in/duong-gia-kiet-a7582b299/"
+            />
+            
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="w-full p-6 md:p-12 flex flex-col bg-[#edd7b4]"
+        aria-labelledby="officers-heading"
+      >
+        <div className="flex flex-col gap-4">
+          <h2
+            id="officers-heading"
+            className="text-start font-garamond font-thin text-3xl md:text-5xl"
+          >
+            2025-2026 Officers
+          </h2>
+          <p className="text-start text-gray-900 mb-10 max-w-2xl">
+            Game nights. Hackathons. A whole lot of momentum. Meet the crew behind it.
           </p>
         </div>
         <div className="flex flex-col gap-8">
