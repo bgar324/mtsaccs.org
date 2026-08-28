@@ -117,7 +117,7 @@ const page = () => {
         <div className="flex flex-col gap-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-6 md:px-12 xl:px-36 mx-auto">
             <OfficerCard
-              name="Adriel"
+              name="Adriel Devon"
               role="President"
               imageSrc="/static/people/adriels.png"
               discordUsername="adrieldvn"
@@ -131,25 +131,32 @@ const page = () => {
               linkedinUrl="https://www.linkedin.com/in/hao-en-berkeley/"
             />
             <OfficerCard
+              name="Zain Nasir"
+              role="Secretary"
+              imageSrc="/static/people/zain.png"
+              discordUsername="zaintheman0276_44522"
+              linkedinUrl=""
+            />
+            <OfficerCard
               name="Remington Ly"
               role="Treasurer"
               imageSrc="/static/people/remy.png"
               discordUsername="ramen0817"
-              linkedinUrl=""
+              linkedinUrl="https://www.linkedin.com/in/remington-ly-90ab22353/"
+            />
+            <OfficerCard
+              name="Casper Xu"
+              role="Outreach"
+              imageSrc="/static/people/casper.png"
+              discordUsername="mbfcasper"
+              linkedinUrl="https://www.linkedin.com/in/yitong-xu-63b006427/"
             />
             <OfficerCard
               name="Oswaldo Arteta"
               role="ICC Representative"
               imageSrc="/static/people/oswaldo.png"
               discordUsername="oswadlo"
-              linkedinUrl=""
-            />
-            <OfficerCard
-              name="Zain Nasir"
-              role="Outreach"
-              imageSrc="/static/people/zain.png"
-              discordUsername="zaintheman0276_44522"
-              linkedinUrl=""
+              linkedinUrl="https://www.linkedin.com/in/oswaldo-arteta-rodriguez-650864389/"
             />
             <OfficerCard
               name="Ethan Luu"
@@ -157,13 +164,6 @@ const page = () => {
               imageSrc="/static/people/ethan.png"
               discordUsername="8439"
               linkedinUrl="https://www.linkedin.com/in/ethantheluu/"
-            />
-            <OfficerCard
-              name="Casper Xu"
-              role="Workshop Officer"
-              imageSrc="/static/people/casper.png"
-              discordUsername="mbfcasper"
-              linkedinUrl="https://www.linkedin.com/in/yitong-xu-63b006427/"
             />
             <OfficerCard
               name="Kiet Duong"
