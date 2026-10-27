@@ -43,6 +43,29 @@ const upcomingEvents: Event[] = [
   
 ];
 
+const fall2026Events = [
+  {
+    id: "25", 
+    imageSrc: "/static/events/GitVsGitHubWorkshop.png", 
+    title: "Git vs GitHub Workshop", 
+    description: "Come join us for our version control workshop where we'll go over the basics of version control and how to use and collaborate with Git/GitHub.",
+    date: "23 October", 
+    time: "1:00 pm - 2:30 pm", 
+    location: "Building 61, Room 2419", 
+    rsvpUrl: "hhttps://docs.google.com/forms/d/e/1FAIpQLSdXw1gvcebiEBMTT5dXKtYjvWeayGzUwl931EbKUZFiPpjn9Q/viewform"
+  },
+  {
+    id: "24", 
+    imageSrc: "/static/events/CsClubSocial.png", 
+    title: "CS Club Social", 
+    description: "Take a break from coding and connect with fellow CS enthusiasts! Make new friends, enjoy fun activities, share ideas, and build connections with the CS Club community.",
+    date: "25 September", 
+    time: "12:00 pm - 1:00 pm", 
+    location: "Building 61, Room 2419", 
+    rsvpUrl: "https://docs.google.com/forms/d/e/1FAIpQLSdXw1gvcebiEBMTT5dXKtYjvWeayGzUwl931EbKUZFiPpjn9Q/viewform"
+  }
+]
+
 const spring2026Events = [
   {
     id: "23",
@@ -303,6 +326,37 @@ const page = () => {
               isTBA={event.date.includes("TBA")}
             />
           ))} 
+        </div>
+      </section>
+
+      <section
+        className="w-full p-6 md:p-12 flex flex-col bg-[#edd7b4]"
+        aria-labelledby="past-events"
+      >
+        <h2
+          id="past-events"
+          className="text-start font-garamond font-thin text-3xl md:text-5xl mb-8"
+        >
+          Fall 2026 Events
+        </h2>
+        <div
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-2 "
+          role="list"
+          aria-label="Event list"
+        >
+          {fall2026Events.map((event) => (
+            <EventCard
+              key={event.id}
+              imageSrc={event.imageSrc}
+              title={event.title}
+              description={event.description}
+              date={event.date}
+              time={event.time}
+              location={event.location}
+              rsvpUrl={event.rsvpUrl}
+              isArchived={true}
+            />
+          ))}
         </div>
       </section>
 
