@@ -44,6 +44,16 @@ const upcomingEvents: Event[] = [
 ];
 
 const fall2026Events = [
+   {
+    id: "26", 
+    imageSrc: "/static/events/WebAppProgrammingWorkshop.png", 
+    title: "Web App Programming Workshop", 
+    description: "Build a web app with fellow CS Club members while gaining hands-on programming and teamwork experience!",
+    date: "13 November", 
+    time: "12:00 pm - 2:00 pm", 
+    location: "Building 61, Room 2419", 
+    rsvpUrl: "https://docs.google.com/forms/u/2/d/e/1FAIpQLSe0nccTIMajApZMlb0Yp1-xlnTgQh5YJk1Uz9wfypcRZPUw0Q/viewform"
+  },
   {
     id: "25", 
     imageSrc: "/static/events/GitVsGitHubWorkshop.png", 
